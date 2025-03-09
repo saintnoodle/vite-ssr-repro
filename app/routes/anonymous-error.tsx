@@ -1,5 +1,5 @@
 import { data } from "react-router"
-import type { Route } from "../+types/anonymous-error"
+import type { Route } from "./+types/anonymous-error"
 
 export function loader() {
 
