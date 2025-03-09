@@ -1,0 +1,19 @@
+diff --git a/node_modules/vite/.bun-tag-aaa28a9390c2f67d b/.bun-tag-aaa28a9390c2f67d
+new file mode 100644
+index 0000000000000000000000000000000000000000..e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+diff --git a/node_modules/vite/.bun-tag-bc76581cb05f12f b/.bun-tag-bc76581cb05f12f
+new file mode 100644
+index 0000000000000000000000000000000000000000..e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+diff --git a/dist/node/chunks/dep-glQox-ep.js b/dist/node/chunks/dep-glQox-ep.js
+index 800f9f1facacbb602d5bc367499fc7b4fecb2482..7d30538452e2061685bfe418a87bcfc0fc8edc8f 100644
+--- a/dist/node/chunks/dep-glQox-ep.js
++++ b/dist/node/chunks/dep-glQox-ep.js
+@@ -30732,7 +30732,7 @@ function ssrRewriteStacktrace(stack, moduleGraph) {
+         if (!pos.source) {
+           return input;
+         }
+-        const trimmedVarName = varName.trim();
++        const trimmedVarName = varName?.trim();
+         const sourceFile = path$d.resolve(path$d.dirname(id), pos.source);
+         const source = `${sourceFile}:${pos.line}:${pos.column + 1}`;
+         if (!trimmedVarName || trimmedVarName === "eval") {
